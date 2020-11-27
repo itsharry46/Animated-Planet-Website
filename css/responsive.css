@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    .nav-links{
+        position: relative;        
+        right: 30px;
+    }
+
+    .text h1{
+        position: absolute;
+        top: 43vh;
+        left: 25vw;
+    }
+
+    .home-title {
+        z-index: 1;
+    }
+
+    .swiper-slide {
+        height: 85vh !important;
+        width: 90% !important;
+        background: transparent;
+    }    
+
+    .slide-detail-facts {
+        position: absolute;
+        top: 50vh;
+        left: 30%;
+    }
+
+    .planet-links {
+        justify-content: space-around;
+        list-style: none;
+        font-size: smaller;
+        margin-left: -3%;
+    }
+}
